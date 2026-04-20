@@ -1,10 +1,2 @@
-import Dashboard from "./Dashboard";
-import { AppLayout } from "@/components/AppLayout";
-
-const Index = () => (
-  <AppLayout>
-    <Dashboard />
-  </AppLayout>
-);
-
-export default Index;
+// Kept for backwards compatibility; routes render Dashboard directly via AppLayout.
+export { default } from "./Dashboard";
